@@ -2,9 +2,6 @@
   TB6612-Demo.ino
   Demonstrates use of TB6612FNG H-Bridge Motor Controller
   Drives two DC Motors
- 
-  DroneBot Workshop 2019
-  https://dronebotworkshop.com
 */
  
 // Motor A
