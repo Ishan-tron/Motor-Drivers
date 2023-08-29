@@ -1,0 +1,29 @@
+void setup(){
+pinMode(2,INPUT);
+pinMode(3,INPUT);
+pinMode(4,INPUT);
+pinMode(5,INPUT);
+pinMode(6,INPUT);
+pinMode(7,INPUT);
+pinMode(8,INPUT);
+pinMode(9,INPUT);
+Serial.begin(9600);
+}
+void loop(){
+Serial.println(digitalRead(2));
+delay(1000);
+Serial.println(digitalRead(3));
+delay(1000);
+Serial.println(digitalRead(4));
+delay(1000);
+Serial.println(digitalRead(5));
+delay(1000);
+Serial.println(digitalRead(6));
+delay(1000);
+Serial.println(digitalRead(7));
+delay(1000);
+Serial.println(digitalRead(8));
+delay(1000);
+Serial.println(digitalRead(9));
+delay(10000);
+}
